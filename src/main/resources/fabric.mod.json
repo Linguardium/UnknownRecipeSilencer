@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "unknownrecipes",
+  "version": "${version}",
+  "name": "UnknownRecipeSilencer",
+  "description": "silences the unknown recipe log entry",
+  "authors": [
+    "Linguardium"
+  ],
+  "contributors": [],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/unknownrecipes/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [],
+    "client": [],
+    "server": []
+  },
+  "mixins": [
+    "unknownrecipes.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.4.0"
+  }
+}

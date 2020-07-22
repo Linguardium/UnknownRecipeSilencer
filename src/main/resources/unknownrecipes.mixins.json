@@ -1,0 +1,11 @@
+{
+  "required": true,
+  "package": "mod.linguardium.unknownrecipes.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [],
+  "client": ["SilenceFiend"],
+  "server": [],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
